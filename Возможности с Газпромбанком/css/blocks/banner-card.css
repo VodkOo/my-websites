@@ -1,0 +1,123 @@
+.banner-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 604px;
+  padding: 32px;
+  border-radius: 12px;
+  background-color: #e7efff;
+}
+
+.banner-card__wrapper {
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+  align-items: start;
+}
+
+.banner-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.banner-card__label {
+  width: 66px;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(30, 34, 46, 0.5);
+  border: 1px solid rgba(30, 34, 46, 0.5);
+  border-radius: 4px;
+}
+
+.banner-card__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.banner-card__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.banner-card__link {
+  width: 140px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #476bf0;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Cтили карт 2, 3, 4 */
+
+.banner-card--second {
+  background-color: #476bf0;
+  color: #ffffff;
+}
+
+.banner-card--second .banner-card__label {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.banner-card--second .banner-card__link {
+  color: #476bf0;
+  background-color: #ffffff;
+}
+
+.banner-card--third {
+  background-color: #cff6e7;
+}
+
+.banner-card--fourth {
+  background-color: #c4e7ff;
+}
+
+/* Модификаторы вторых баннеров */
+
+.banner-card--mod {
+  flex-direction: column;
+  align-items: center;
+  width: 286px;
+  padding: 32px 20px 20px;
+  text-align: center;
+}
+
+.banner-card--mod .banner-card__wrapper {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.banner-card--mod .banner-card__content {
+  gap: 8px;
+}
+
+.banner-card--mod .banner-card__label {
+  margin: 0 auto;
+}
+
+.banner-card--mod .banner-card__title {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.banner-card--mod .banner-card__text {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.banner-card--mod .banner-card__img {
+  margin: auto auto 0;
+}

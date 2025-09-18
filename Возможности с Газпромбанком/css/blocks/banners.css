@@ -1,0 +1,16 @@
+.banners {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.banners__item {
+  display: flex;
+}
+
+.banners--mod {
+  flex-wrap: nowrap;
+}
