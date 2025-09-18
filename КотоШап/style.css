@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+  img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .page-content {
+    padding: 60px 30px;
+  }
+  .banner-intro {
+    width: 100%;
+    padding: 60px 20px;
+    background: #ccc url("https://i.ibb.co/YFW5csG6/image.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .banner-intro__title {
+    font-size: 50px;
+    line-height: 62px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin: 0 0 60px;
+  }
+  .banner-intro__info {
+    width: 600px;
+    margin: 0 auto 85px;
+    border-radius: 20px 120px 20px 120px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px 0px rgba(172, 224, 249, 0.6);
+  }
+  .banner-intro__img {
+    width: 100%;
+    height: 350px;
+  }
+  .banner-intro__product-inner {
+    padding: 45px 45px 50px;
+    background-color: #fff;
+  }
+  .banner-intro__product-title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #444;
+    padding: 0 0 30px;
+  }
+  .banner-intro__product-text {
+    font-size: 20px;
+    line-height: 26px;
+    color: #444;
+    width: 400px;
+    margin: 0 auto 35px;
+    text-align: center;
+  }
+  .banner-intro__product-price {
+    display: block;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: right;
+  }
+  .banner-intro__link {
+    display: block;
+    width: 376px;
+    padding: 21px;
+    margin: 0 auto 48px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #444;
+    text-decoration: none;
+    background: linear-gradient(270deg, #FFF1EB 0.07%, #ACE0F9 96.24%);
+    border-radius: 30px;
+  }
+  .banner-intro__note {
+    width: 530px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+  }
