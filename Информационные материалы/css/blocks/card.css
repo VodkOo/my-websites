@@ -1,0 +1,92 @@
+.card {
+  display: flex;
+  gap: 30px;
+}
+
+.card__item {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.card__img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: rgb(121, 119, 119);
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 20px 40px;
+  background-color: #F2F3EE;
+}
+
+.card__date {
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(29, 37, 45, 0.5);
+}
+
+.card__title {
+  margin: 0 0 10px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+}
+
+.card__text {
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.card__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.card__views {
+  font-size: 14px;
+  line-height: 18px;
+  color:rgba(29, 37, 45, 0.5);
+}
+
+.card__link {
+  width: 220px;
+  padding: 7px;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 40px;
+  background-color: #D6D2C4;
+  text-align: center;
+}
+
+/* Сетка списком */
+
+.card--list {
+  flex-direction: column;
+  gap: 60px;
+}
+
+.card--list .card__item {
+  flex-direction: row;
+  gap: 40px;
+  width: 100%;
+}
+
+.card--list .card__img {
+  width: 570px;
+}
+
+.card--list .card__title {
+  margin-bottom: 15px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
