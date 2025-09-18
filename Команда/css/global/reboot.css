@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 1270px;
+  margin: 0;
+  padding: 0;
+  font-family: "IBMP lex Sans", "Arial", sans-serif;
+  font-weight: 300;
+  color: #1d252d;
+  background-color: #ffffff;
+}
+
+main {
+  flex-grow: 1;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: #1d252d;
+  text-decoration: none;
+}

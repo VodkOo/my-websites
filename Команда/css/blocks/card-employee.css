@@ -1,0 +1,90 @@
+.card-employee {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card-employee__item {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background: #f2f3ee;
+  border-radius: 20px;
+}
+
+.card-employee__post {
+  margin: 0 auto 5px 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.card-employee__name {
+  display: block;
+  margin: 0 auto 20px 0;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.card-employee__info-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.card-employee__img {
+  border-radius: 12px;
+}
+
+.card-employee__block-quote {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  margin: 0;
+  text-align: center;
+}
+
+.card-employee__quote {
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.card-employee__experience {
+  margin: 0 0 20px 0;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+}
+
+.card-employee__item--center .card-employee__quote,
+.card-employee__item--center .card-employee__experience {
+  text-align: center;
+}
+
+.card-employee__links {
+  display: flex;
+  margin: auto 0 0 0;
+  column-gap: 10px;
+}
+
+.card-employee__btn {
+  width: 140px;
+  padding: 7px;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  background: #d6d2c4;
+  border-radius: 40px;
+}
+
+.card-employee__btn--call {
+  background: inherit;
+}
