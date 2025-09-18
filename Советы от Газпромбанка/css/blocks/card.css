@@ -1,0 +1,81 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 286px;
+  min-height: 480px;
+  padding: 20px 20px 32px;
+  border-radius: 12px;
+  background-image: url("../../images/background-1.jpg");
+  background-repeat: no-repeat;
+  background-color: #1a41a9;
+}
+
+.card__prev {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 220px;
+}
+
+.card__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.card__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.card__text {
+  margin: auto 0 20px 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.card__link {
+  width: 246px;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #476bf0;
+  text-decoration: none;
+}
+
+.card--second {
+  background-image: url("../../images/background-2.jpg");
+}
+
+.card--third {
+  background-image: url("../../images/background-3.jpg");
+}
+
+.card--fourth {
+  background-image: url("../../images/background-4.jpg");
+}
+
+.card--fifth {
+  background-image: url("../../images/background-5.jpg");
+}
+
+.card--sixth {
+  background-image: url("../../images/background-6.jpg");
+}
+
+.card--seventh {
+  background-image: url("../../images/background-7.jpg");
+}
+
+.card--eighth {
+  background-image: url("../../images/background-8.jpg");
+}
